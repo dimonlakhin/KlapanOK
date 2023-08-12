@@ -1,0 +1,875 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    max-height: 52px;
+}
+
+.header {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 56px;
+    background-color: rgba(240, 255, 72, 1);
+}
+
+.menu__list {
+    display: flex;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-link + .header__contact-link{
+    padding: 0;
+margin-left: 30px;
+}
+
+.menu__item + .menu__item {
+    padding-left: 70px;
+}
+
+.menu__link {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.telefon__contact-size {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.fone__header {
+    display: none;
+    max-width: 27px;
+    margin-bottom: 5px;
+}
+
+.header__social-img {
+    max-width: 35px;
+}
+
+.tractor__container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.logo__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img_tractor {
+    width: 100%;
+    max-width: 400px;
+}
+
+.img_logo {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.tractor__content-info {
+    min-width: 400px;
+}
+
+.tractor__content {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+}
+
+.klapan_img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: -80px;
+}
+
+.tractor__info {
+    background-color: rgba(240, 255, 72, 0.8);
+    margin-bottom: 20px;
+}
+
+.tractor__info_two {
+    background-color: rgba(240, 255, 72, 0.8);
+}
+
+.tractor__text {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.info__items {
+    padding: 0;
+}
+
+.icon_one {
+    max-width: 40px;
+    margin: 10px 4px 0px 5px;
+}
+
+.icon_two {
+    max-width: 40px;
+    margin: 10px 0px 0px 10px;
+}
+
+.icon_three {
+    max-width: 75px;
+    margin-left: -10px;
+    margin-right: -15px;
+}
+
+.icon_four {
+    max-width: 50px;
+    margin-top: 25px;
+    margin-right: 0px;
+}
+
+.icon_five {
+    max-width: 48px;
+}
+
+.icon_six {
+    max-width: 48px;
+}
+
+.icon_seven {
+    max-width: 48px;
+}
+
+.tractor__text-four{
+    margin-top: 40px;
+}
+
+.icon_two-item {
+    margin-top: -20px;
+}
+
+.icon_three-item {
+    margin-top: -30px;
+}
+
+.icon_four-item {
+    margin-top: -55px;
+}
+
+.icon_six-item {
+    margin-top: -10px;
+}
+
+.icon_seven-item {
+    margin-top: -18px;
+}
+
+.btn_cotainer {
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    background-color: rgba(240, 255, 72, 1);
+}
+
+.btn-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+    padding: 10px;
+}
+
+.link_site {
+    font-size: 16px;
+}
+
+.assortment__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.win_number {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.assortment__items {
+    background-color: rgba(240, 255, 72, 0.3);
+    padding-left: 10px;
+}
+
+.assortment__item {
+    display: flex;
+}
+
+.assortment__img {
+    max-height: 40px;
+}
+
+.assortment__block-one {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.win__item-one {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+.klapana__img-tovary {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 40px;
+}
+
+.assortment__block-two {
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+}
+.win__item-two {
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+
+.assortment__block-three {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.win__item-three {
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+}
+
+.assortment__block-items {
+    margin: 0 70px;
+}
+
+.item__text {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.block__klapana {
+    margin-left: 75px;
+}
+
+.block__salniki {
+    margin-left: 75px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.footer__nav {
+    background-color: rgba(240, 255, 72, 0.3);
+    width: 150px;
+    height: 120px;
+}
+
+.footer__contacts {
+    background-color: rgba(240, 255, 72, 0.3);
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_footer {
+    margin-top: 10px;
+}
+
+.item__footer-link {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.footer__contacts-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    max-width: 150px;
+    width: 100%;
+}
+
+.telefon_img {
+    max-width: 40px;
+}
+
+.telegram_img {
+    max-width: 35px;
+}
+
+.viber_img {
+    max-width: 35px;
+}
+
+.footer__block {
+    background-image: url(../img/footer_fon.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__btn_cotainer {
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    background-color: rgba(240, 255, 72, 1);
+    margin: 20px auto;
+    min-width: 200px;
+}
+
+.footer__btn-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+}
+
+.logo__footer-img {
+    width: 150px;
+}
+
+
+
+@media (max-width: 960px) {
+    .assortment__block-items {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 880px) {
+    
+    .tractor__content-info {
+        min-width: 300px;
+      }
+
+      .tractor__container {
+        max-width: 650px;
+      }
+
+      .tractor__content {
+        max-width: 650px;
+      }
+
+      .klapan_img {
+        margin-top: -50px;
+      }
+
+      .klapana__img-tovary {
+        margin: 0;
+    }
+
+    .win__item-one {
+        left: 50px;
+      }
+
+      .win__item-two {
+        right: 20px;
+      }
+
+      .win__item-three {
+        left: 50px;
+        bottom: 35px;
+      }
+
+      .menu__item + .menu__item {
+        padding-left: 40px;
+      }
+}
+
+@media (max-width: 740px) {
+   .win__item-one {
+     left: 34px;
+   }
+
+   .win_number {
+    margin: 5px 0;
+  }
+
+}
+
+@media (max-width: 630px) {
+    .tractor__container {
+        max-width: 500px;
+    }
+
+    .tractor__content {
+        max-width: 550px;
+    }
+    
+    .tractor__content-info {
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .klapan_img {
+        margin-top: -30px;
+      }
+
+      .menu__item + .menu__item {
+        padding-left: 20px;
+      }
+
+      .header__contact-link + .header__contact-link {
+        margin-left: 15px;
+      }
+
+      /* !!!!!!!!!!! PAGE 2 !!!!!!!!!!!! */
+
+      .assortment__block-one {
+        flex-direction: column;
+        margin-bottom: 20px;
+        /* display: block; */
+      }
+      .klapana__img-tovary {
+        max-width: 450px;
+      }
+
+      .block__klapana {
+        margin: 0px;
+      }
+
+      .win__item-one {
+        left: -5px;
+      }
+
+      .assortment__block-two {
+        flex-direction: column-reverse;
+      }
+
+      .win__item-two {
+        right: 50px;
+        top: 10px;
+      }
+
+      .assortment__block-three {
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+
+      .block__salniki {
+        margin-left: 0;
+      }
+
+      .win__item-three {
+        left: 30px;
+        bottom: 200px;
+      }
+
+      .assortment__items {
+        width: 350px;
+      }
+
+      .assortment__block-items {
+        margin-top: 20px;
+      }
+}
+
+@media (max-width: 510px) {
+    .menu__link {
+        font-size: 13px;
+       }
+
+      .telefon__contact-size {
+        font-size: 13px;
+        }
+
+      .header__social-img {
+        max-width: 28px;
+        }
+
+      .tractor__container {
+        max-width: 420px;
+        }
+
+      .tractor__content {
+        max-width: 450px;
+        }   
+          
+       .tractor__text {
+        font-size: 12px;
+       }    
+
+       .tractor__content-info {
+        min-width: 220px;
+      }
+
+      .icon_one {
+        max-width: 30px;
+      }
+
+      .icon_two {
+        max-width: 28px;
+        margin-left: 10px;
+      }
+
+      .icon_three {
+        max-width: 58px;
+        margin-left: -8px;
+        margin-right: -12px;
+      }
+
+      .icon_four {
+        max-width: 40px;
+        margin-right: -2px;
+      }
+
+      .icon_five {
+        max-width: 40px;
+      }
+
+      .icon_six {
+        max-width: 40px;
+      }
+
+      .icon_seven {
+        max-width: 40px;
+      }
+
+      .icon_two-item {
+        margin-top: -16px;
+      }
+
+      .icon_three-item {
+        margin-top: -24px;
+      }
+
+      .icon_four-item {
+        margin-top: -50px;
+      }
+
+      .klapan_img {
+        margin-top: -14px;
+      }
+
+      .tractor__content-info {
+        min-width: 210px;
+      }
+
+      .tractor__text {
+        font-size: 12px;
+        margin-left: 10px;
+      }
+}
+
+@media (max-width: 470px) {
+       .telefon__contact-size {
+        display: none;
+       }
+
+       .menu {
+        margin-bottom: 10px;
+      }
+
+      .header__inner {
+        height: 40px;
+      }
+
+      .fone__header {
+        display: block;
+        max-width: 32px;
+      }
+
+      .img_logo {
+        margin-top: 20px;
+      }
+
+      .tractor__container {
+        max-width: 350px;
+      }
+
+      .tractor__content {
+        max-width: 400px;
+      }
+
+      .link_site {
+        font-size: 14px;
+      }
+
+      .tractor__text {
+        font-size: 12px;
+        margin-left: 4px;
+      }
+
+      .icon_one {
+        max-width: 23px;
+        margin: 0px 0px 0px 5px;
+      }
+
+      .icon_two {
+        max-width: 22px;
+        margin-left: 6px;
+        margin-top: 0px;
+      }
+
+      .icon_three {
+        max-width: 45px;
+        margin-left: -8px;
+        margin-right: -8px;
+      }
+
+      .icon_four {
+        max-width: 30px;
+        margin-right: -2px;
+      }
+
+      .icon_five {
+        max-width: 30px;
+      }
+
+      .icon_six {
+        max-width: 30px;
+      }
+
+      .icon_seven {
+        max-width: 30px;
+      }
+
+      .icon_two-item {
+        margin-top: -20px;
+      }
+
+      .icon_six-item {
+        margin-top: -15px;
+      }
+
+      .icon_seven-item {
+        margin-top: -21px;
+      }
+
+      .header__inner {
+        justify-content: space-between;
+      }
+
+      .header__contacts {
+        margin-right: 20px;
+      }
+
+      .tractor__content-info {
+        min-width: 195px;
+      }
+
+      /* !!!!!!!!!!!!! PAGE-2  !!!!!!!!!!!!! */
+
+      .win__item-one {
+        left: 6px;
+      }
+
+      /* !!!!!!!!!!!! FOOTER !!!!!!!!!!!! */
+
+      .footer__inner {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .logo__footer-img {
+        width: 260px;
+      }
+
+      .footer__nav {
+        width: 260px;
+        height: 60px;
+        margin-top: 20px;
+      }
+
+      .footer__contacts {
+        width: 260px;
+       
+      }
+
+      .footer__nav-items {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+      }
+
+      .footer__contacts-link {
+        max-width: 250px;
+      }
+      .footer__btn_cotainer {
+        min-width: 250px;
+      }
+    
+    }
+
+@media (max-width: 420px) {
+  .menu__list {
+    padding-left: 15px;
+  }
+
+  .menu__item + .menu__item {
+    padding-left: 15px;
+  }
+
+  .tractor__content-info {
+    min-width: 190px;
+  }
+
+  .tractor__content {
+    max-width: 380px;
+  }
+
+  .tractor__info {
+   margin-bottom: 10px;
+  }
+
+  .tractor__content-info {
+    margin-bottom: 10px;
+  }
+
+  /* !!!!!!!!!!! PADE-2 !!!!!!!!! */
+
+  .klapana__img-tovary {
+    max-width: 350px;
+  }
+
+  .win__item-one {
+    left: 10px;
+  }
+
+  .win__item-two {
+    right: 30px;
+  }
+
+}
+
+@media (max-width: 390px) {
+  .menu__list {
+    padding-left: 6px;
+  }
+
+  .menu__item + .menu__item {
+    padding-left: 8px;
+  }
+
+  .tractor__container {
+    max-width: 340px;
+  }
+
+  .tractor__content {
+    max-width: 355px;
+  }
+
+  .klapan_img {
+    margin-top: -4px;
+  }
+
+  .tractor__content-info {
+    min-width: 185px;
+  }
+
+  .header__contacts {
+    margin-right: 8px;
+  }
+
+  /* !!!!!!!!!!!! PAGE-2 !!!!!!!!!!!!! */
+
+  .klapana__img-tovary {
+    max-width: 320px;
+    margin-left: 10px;
+  }
+
+  .win__item-one {
+    left: 4px;
+  }
+}
+
+
+
+.menu__link:hover {
+  color: gray;
+}
+
+.telefon__contact-size:hover {
+  color: gray;
+}
+
+.btn-link:hover {
+  color: gray;
+}
+
+.item__footer-link:hover {
+  color: gray;
+}
+
+.footer__btn-link:hover {
+  color: gray;
+}
+
+.link_site:hover {
+  color: gray;
+}
+
+
+
+
